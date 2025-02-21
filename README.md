@@ -1,4 +1,7 @@
 # deep-speaker
+Project contains code from paper: 
+
+Louise, Bryn, Teodors Kerimovs, and Sebastian J. Schlecht. "Deep Learning for Loudspeaker Digital Twin Creation." Audio Engineering Society Convention 154. Audio Engineering Society, 2023.
 
 Deep Learning models for speaker emulation. Dataset should be stereo audio where input data is original audio tracks 
 and ground truth is stereo audio where input data has been played through a speaker/amp and recorded. Model will 
