@@ -1,0 +1,27 @@
+# Path Parameters
+data_dir:
+data_name:
+save_location:
+project_name:
+
+# Data Parameters
+input_channels: 2
+output_channels: 2
+sequence_length: 24000
+
+# Training Parameters
+epochs: 100
+device: gpu
+learn_rate: 0.001
+loss_function: MSE
+expanding: false
+
+# Model Parameters
+model: RNNModel
+cell_type: lstm
+batch_size: 50
+truncated_bptt_steps: 1500
+num_layers: 2
+hidden_size: 128
+bidirectional: false
+skip: false

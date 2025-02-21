@@ -1,0 +1,25 @@
+# Path Parameters
+data_dir:
+data_name:
+save_location:
+project_name:
+
+# Data Parameters
+input_channels: 2
+output_channels: 2
+sequence_length: 6000
+batch_size: 50
+
+# Training Parameters
+epochs: 50
+device: cpu
+learn_rate: 0.005
+loss_function: ESR
+
+
+# Model Parameters
+model: WaveNetModel
+num_channels: 8
+dilation_depth: 9
+num_blocks: 2
+kernel_size: 5
